@@ -1,0 +1,440 @@
+body{
+				background-color:blue;
+			}
+			#mainarea{
+				width:1200px;
+				height:3215px;
+				background:blue;
+				margin:0 auto;
+				
+			}
+			.contentarea{
+				width:1200px;
+				margin:0 auto;
+				
+			}
+			
+			#toparea{
+				width:1200px;
+				height:40px;
+				background:green;
+			}
+				#top1{
+					width:600px;
+					height:40px;
+					background:purple;
+					float:left;
+				}
+				#top2{
+					width:600px;
+					height:40px;
+					background:yellow;
+					float:left;
+					
+				}
+			
+			#menuarea{
+				width:1200px;
+				height:125px;
+				background:pink;
+				
+			}
+				#logoarea{
+					width:250px;
+					height:125px;
+					background:yellow;	
+					float:left;
+					
+				}
+				#logoarea img{
+					width:180px;
+					height:110px;
+					padding:5px;
+					margin:5px 20px; 
+					
+					
+					}
+				#titlearea{
+					width:1200px;
+					height:125px;
+					background:blue;
+					}
+					
+					
+					
+				
+				#t1{
+					width:550px;
+					height:125px;
+					background:black;
+					float:left;
+					
+				}
+				#t2{
+					width:200px;
+					height:125px;
+					background:orange;
+					float:left;
+					
+				}
+					
+				#t3{
+					width:200px;
+					height:125px;
+					background:gray;
+					float:left;
+					
+					}
+					#t3 img{
+						width:200px;
+						height:125px;
+					}
+				
+					
+					
+				
+			
+			#slidearea{
+				width:1200px;
+				height:370px;
+				background:cyan;
+			}
+			#slidearea img{
+				width:1200px;
+				height:370px;
+				}
+			#boxarea{
+				width:1200px;
+				height:60px;
+				background:yellow;
+			}
+			#carea{
+				width:1200px;
+				height:60px;
+				background:green;
+			}
+				#c1{
+					width:400px;
+					height:60px;
+					background:cyan;
+					float:left;
+					
+					
+				}
+					#c1 h2{
+						margin-right:100px;
+						
+				
+					}
+				#c2{
+					width:800px;
+					height:60px;
+					background:pink;
+					float:left;
+					text-decoration:underline;
+				}
+				
+				
+			
+			#darea{
+				width:1200px;
+				height:250px;
+				background:purple;
+				
+				
+			
+			}
+			#d1{
+				width:300px;
+				height:250px;
+				background:pink;
+				float:left;
+				
+				}
+				#d1 img{
+					width:250px;
+					height:190px;
+					margin-left:20px;
+					
+				}
+				
+						
+				
+			
+			#d2{	
+				width:900px;
+				height:250px;
+				background:red;
+				float:left;
+				
+				
+			}
+				#d2 h3{
+					margin-top:50px;
+					margin-left:30px;
+					font-family:cursive;
+						
+				
+					}
+				
+				
+			
+			#footerarea{
+				width:1200px;
+				height:700px;
+				background:skyblue;
+				}
+				#foot{
+					width:1200px;
+					height:60px;
+					background:green;
+					float:left;
+					
+				}
+				
+				#f1area{
+					width:300px;
+					height:540px;
+					background:cyan;
+					float:left;
+					margin-top:50px;
+					margin-left:10px;
+					
+					
+				}
+					#f11{
+						width:300px;
+						height:270px;
+						background:red;
+						float:left;
+					}
+						#f11 img{
+							width:300px;
+							height:270px;
+						}
+					#f12{
+						width:300px;
+						height:270px;
+						background:white;
+						float:left;
+						}
+						#f12 h2 {
+							color:#A5523B ;
+						}
+				#f2area{
+					width:550px;
+					height:540px;
+					background:gray;
+					float:left;
+					margin-top:50px;
+					margin-left:10px;
+					
+					
+				}
+				#f3area{
+					width:300px;
+					height:540px;
+					background:orange;
+					float:left;
+					margin-top:50px;
+					margin-left:10px;
+					
+				}
+					#f13{
+						width:300px;
+						height:270px;
+						background:red;
+					}
+						#f13 img{
+							width:300px;
+							height:270px;
+						}
+					#f14{
+						width:300px;
+						height:270px;
+						background:blue;
+						float:left;
+						}
+						#f14{
+							color:#A5523B;	
+						}
+
+			
+			#shuterarea{
+				width:1200px;
+				height:540px;
+				background:black;
+				}
+				#s1{
+					width:300px;
+					height:520px;
+					background:gray;
+					float:left;
+					margin-top:10px;
+					margin-left:2px;
+					
+				
+				}
+					
+				#s2{
+					width:580px;
+					height:400px;
+					background:brown;
+					float:left;
+					margin-top:10px;
+					margin-left:2px;
+					
+				}
+				#s3{
+					width:300px;
+					height:400px;
+					background:gray;
+					float:left;
+					margin-top:10px;
+					margin-left:2px;
+					
+				
+			}
+			
+			#foxarea{
+				width:1200px;
+				height:370px;
+				background:pink;
+			}
+				#fox1{
+					width:1200px;
+					height:60px;
+					background:green;
+					float:left;
+				}		
+				
+				
+				#fox2{
+					width:400px;
+					height:280px;
+					float:left;
+					background:gray;
+					margin-top:10px;
+					margin-left:100px;
+					
+				}
+					#fox2 img{
+						width:400px;
+						height:280px;
+					}
+						
+			#mitarea{
+				width:1200px;
+				height:400px;
+				background:orange;
+			}
+				#m11{
+					width:1200px;
+					height:60px;
+					background:red;
+					float:left;
+				}
+				#m12{
+					width:1200px;
+					height:60px;
+					background:#784318;
+					float:left;
+					margin-top:10px;
+					margin-right:5px;
+					
+				}
+				
+				
+				.box{
+					width:140px;
+					height:130px;
+					background:white;
+					margin:40px;
+					float:left;
+				
+				}
+				.box img{
+					width:140px;
+					height:50px;
+					margin-top:10px;
+				}	
+			
+			
+			
+			
+			
+			#shooterarea{
+				width:1200px;
+				height:380px;
+				background:gray;
+			}
+				#sh1{
+					width:300px;
+					height:330px;
+					background:pink;
+					float:left;
+					margin-top:20px;
+					
+					
+				}
+					#sh11{
+						width:250px;
+						height:100px;
+						background:green;
+						float:left;
+						margin-left:20px;
+						
+					
+					
+					}
+					#sh12{
+						width:250px;
+						height:100px;
+						background:red;
+						float:left;
+						
+					}
+					#sh13{
+						width:250px;
+						height:100px;
+						background:pink;
+						float:left;
+						
+					}
+					#sh14{
+						width:250px;
+						height:100px;
+						background:blue;
+						float:left;
+						
+					
+					}
+				
+					
+					
+					
+					
+				#sh2{
+					width:300px;
+					height:330px;
+					background:green;
+					float:left;
+					margin-top:20px;
+					
+				}
+				#sh3{
+					width:300px;
+					height:330px;
+					background:pink;
+					float:left;
+					margin-top:20px;
+					
+				}
+				#sh4{
+					width:300px;
+					height:330px;
+					background:red;
+					float:left;
+					margin-top:20px;
+					
+				}
