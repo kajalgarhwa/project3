@@ -1,11 +1,869 @@
 <html>
 	<head>
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
 		<title></title>
 		<style type="text/css">
+			body{
+				background-color:blue;
+			}
+			#mainarea{
+				width:1200px;
+				height:3265px;
+				background:blue;
+				margin:0 auto;
+				
+			}
+			.contentarea{
+				width:1200px;
+				margin:0 auto;
+				
+			}
+			
+			#toparea{
+				width:1200px;
+				height:40px;
+				background:green;
+			}
+				#top1{
+					width:600px;
+					height:40px;
+					background:purple;
+					float:left;
+				}
+				#top2{
+					width:600px;
+					height:40px;
+					background:yellow;
+					float:left;
+					
+				}
+			
+			#menuarea{
+				width:1200px;
+				height:125px;
+				background:pink;
+				
+			}
+				#logoarea{
+					width:210px;
+					height:125px;
+					background:yellow;	
+					float:left;
+					
+				}
+				#logoarea img{
+					width:100px;
+					height:110px;
+					padding:5px;
+					margin:5px 20px; 
+					
+					
+					}
+				#titlearea{
+					width:1200px;
+					height:125px;
+					background:blue;
+					}
+					
+					
+					
+				
+				#t1{
+					width:590px;
+					height:125px;
+					background:black;
+					float:left;
+					
+				}
+				#t2{
+					width:200px;
+					height:125px;
+					background:orange;
+					float:left;
+					
+				}
+					
+				#t3{
+					width:200px;
+					height:125px;
+					background:gray;
+					float:left;
+					
+					}
+					#t3 img{
+						width:200px;
+						height:125px;
+					}
+				
+			#menu1{
+				width:1200px;
+				height:60px;
+				background:cyan;
+				float:left;
+			}
+				#menu1 ul li{
+					list-style:none;
+					float:left;
+				}
+				#menu1 ul li a:link,#menu1 ul li a:visited{
+						padding:10px 20px;
+						text-decoration:none;
+						border-right:solid 1px #000;
+					}
+			#slidearea{
+				width:1200px;
+				height:370px;
+				background:cyan;
+				float:left;
+				
+			}
+			#slidearea img{
+				width:1200px;
+				height:370px;
+				}
+			#boxarea{
+				width:1200px;
+				height:60px;
+				background:yellow;
+				float:left;
+			}
+				#b1{
+					width:300px;
+					height:60px;
+					background:red;
+					float:left;
+				}
+				#b2{
+					width:800px;
+					height:60px;
+					background:brown;
+					float:left;
+				}
+					#b2 h3{
+					
+					width:800px;
+					height:30px;
+					margin-right:100px;
+					}
+				#b3{
+					width:100px;
+					height:60px;
+					background:green;
+					float:left;
+				}
+			
+			#carea{
+				width:1200px;
+				height:60px;
+				background:green;
+				float:left;
+				
+			}
+				#c1{
+					width:400px;
+					height:60px;
+					background:cyan;
+					float:left;
+					
+					
+				}
+					#c1 h2{
+						margin-right:100px;
+						
+				
+					}
+				#c2{
+					width:800px;
+					height:60px;
+					background:pink;
+					float:left;
+					
+				}
+					#c2 hr{
+						margin-top:-25px;
+					}
+				
+			
+			#darea{
+				width:1200px;
+				height:250px;
+				background:purple;
+				float:left;
+				
+			
+			}
+			#d1{
+				width:300px;
+				height:250px;
+				background:pink;
+				float:left;
+				
+				}
+				#d1 img{
+					width:250px;
+					height:190px;
+					margin-left:20px;
+					
+				}
+				
+						
+				
+			
+			#d2{	
+				width:900px;
+				height:250px;
+				background:red;
+				float:left;
+				
+				
+			}
+				#d2 h3{
+					margin-top:50px;
+					margin-left:30px;
+					font-family:cursive;
+						
+				
+					}
+				
+				
+			
+			#footerarea{
+				width:1200px;
+				height:700px;
+				background:skyblue;
+				float:left;
+				}
+				#foot{
+					width:1200px;
+					height:60px;
+					background:green;
+					float:left;
+					
+				}
+				
+				#f1area{
+					width:300px;
+					height:540px;
+					background:cyan;
+					float:left;
+					margin-top:20px;
+					margin-left:10px;
+					
+					
+				}
+					#f11{
+						width:300px;
+						height:270px;
+						background:red;
+						float:left;
+					}
+						#f11 img{
+							width:300px;
+							height:270px;
+						}
+					#f12{
+						width:300px;
+						height:270px;
+						background:white;
+						float:left;
+						}
+						#f12 h2 {
+							color:#A5523B ;
+						}
+				#f2area{
+					width:550px;
+					height:540px;
+					background:gray;
+					float:left;
+					margin-top:20px;
+					margin-left:10px;
+				}
+					#f22{
+						width:540px;
+						height:100px;
+						background:green;
+						float:left;	
+						margin-left:5px;
+						margin-top:5px;
+					}
+						#f22 h1{
+						text-align:center;
+					}
+					#f23{
+						width:540px;
+						height:100px;
+						background:pink;
+						float:left;	
+					}
+						#f231{
+							width:270px;
+							height:100px;
+							background:yellow;
+							float:left;	
+							
+						}
+							#f231area{
+								width:90px;
+								height:90px;
+								background:red;
+								float:left;	
+								border-radius:50px;
+							}
+								#f231area i{
+									width:90px;
+									height:90px;
+									margin-left:30px;
+									margin-top:25px;
+									font-size:40px;			
+								}
+							#f232area{
+								width:180px;
+								height:100px;
+								background:pink;
+								float:left;	
+							}
+						
+						#f232{
+							width:270px;
+							height:100px;
+							background:purple;
+							float:left;	
+						}	
+							#f233area{
+								width:90px;
+								height:90px;
+								background:red;
+								float:left;	
+								border-radius:50px;
+							}
+								#f233area i{
+									width:90px;
+									height:90px;
+									margin-left:30px;
+									margin-top:25px;
+									font-size:40px;			
+								}
+							#f234area{
+								width:180px;
+								height:100px;
+								background:pink;
+								float:left;	
+							}
+							
+							
+					#f24{
+						width:540px;
+						height:100px;
+						background:brown;
+						float:left;	
+					}
+							#f241{
+								width:270px;
+								height:100px;
+								background:green;
+								float:left;	
+								
+							}
+								#f241area{
+									width:90px;
+									height:90px;
+									background:red;
+									float:left;	
+									border-radius:50px;
+								}
+									#f241area i{
+										width:90px;
+										height:90px;
+										margin-left:30px;
+										margin-top:25px;
+										font-size:40px;			
+									}
+								#f242area{
+									width:180px;
+									height:100px;
+									background:gray;
+									float:left;	
+								}
+							
+							#f242{
+								width:270px;
+								height:100px;
+								background:red;
+								float:left;	
+							}
+								#fact{
+									width:90px;
+									height:90px;
+									background:white;
+									float:left;	
+									border-radius:50px;
+								}
+									#fact i{
+										width:90px;
+										height:90px;
+										margin-left:30px;
+										margin-top:25px;
+										font-size:40px;			
+									}
+								#act{
+									width:180px;
+									height:100px;
+									background:gray;
+									float:left;	
+								}
+							
+						
+					#f25{
+						width:540px;
+						height:100px;
+						background:blue;
+						float:left;	
+					}
+						#f251{
+							width:270px;
+							height:100px;
+							background:purple;
+							float:left;	
+						}
+							#f251area{
+								width:90px;
+								height:90px;
+								background:white;
+								float:left;	
+								border-radius:50px;
+								}
+									#f251area i{
+										width:90px;
+										height:90px;
+										margin-left:30px;
+										margin-top:25px;
+										font-size:40px;			
+									}
+							#f252area{
+								width:180px;
+								height:100px;
+								background:yellow;
+								float:left;	
+								}
+						#f252{
+							width:270px;
+							height:100px;
+							background:black;
+							float:left;	
+						}
+							#fix{
+								width:90px;
+								height:90px;
+								background:white;
+								float:left;	
+								border-radius:50px;
+								}
+									#fix i{
+										width:90px;
+										height:90px;
+										margin-left:30px;
+										margin-top:25px;
+										font-size:40px;			
+									}
+							#mix{
+								width:180px;
+								height:100px;
+								background:yellow;
+								float:left;	
+								}
+					#f26{
+						width:540px;
+						height:100px;
+						background:red;
+						float:left;		
+					}
+						#f261{
+							width:270px;
+							height:100px;
+							background:green;
+							float:left;	
+						}
+							#f261area{
+								width:90px;
+								height:90px;
+								background:white;
+								float:left;	
+								border-radius:50px;
+								}
+									#f261area i{
+										width:90px;
+										height:90px;
+										margin-left:30px;
+										margin-top:25px;
+										font-size:40px;			
+									}
+							#f262area{
+								width:180px;
+								height:100px;
+								background:pink;
+								float:left;	
+								}
+						#f262{
+							width:270px;
+							height:100px;
+							background:orange;
+							float:left;	
+						}
+							#nit{
+								width:90px;
+								height:90px;
+								background:white;
+								float:left;	
+								border-radius:50px;
+								}
+									#nit i{
+										width:90px;
+										height:90px;
+										margin-left:30px;
+										margin-top:25px;
+										font-size:40px;			
+									}
+							#bit{
+								width:180px;
+								height:100px;
+								background:green;
+								float:left;	
+								}
+				#f3area{
+					width:300px;
+					height:540px;
+					background:orange;
+					float:left;
+					margin-top:20px;
+					margin-left:10px;
+					
+				}
+					#f13{
+						width:300px;
+						height:270px;
+						background:red;
+					}
+						#f13 img{
+							width:300px;
+							height:270px;
+						}
+					#f14{
+						width:300px;
+						height:270px;
+						background:blue;
+						float:left;
+						}
+						#f14{
+							color:#A5523B;	
+						}
+
+			
+			#shuterarea{
+				width:1200px;
+				height:540px;
+				background:black;
+				float:left;
+				}
+				#s1{
+					width:300px;
+					height:520px;
+					background:gray;
+					float:left;
+					margin-top:10px;
+					margin-left:2px;
+					
+				
+				}
+					#sh11{
+						width:270px;
+						height:100px;
+						background:green;
+						float:left;
+						margin-left:20px;
+						margin-top:10px;
+						text-decoration:underline;
+					
+					
+					}
+					#sh12{
+						width:270px;
+						height:90px;
+						background:red;
+						float:left;
+						margin-left:20px;
+						margin-top:10px;
+						
+					}
+					#sh13{
+						width:270px;
+						height:90px;
+						background:pink;
+						float:left;
+						margin-left:20px;
+						margin-top:10px;
+					}
+					#sh14{
+						width:270px;
+						height:90px;
+						background:blue;
+						float:left;
+						margin-left:20px;
+						margin-top:10px;
+						
+					
+					}
+					#sh15{
+						width:270px;
+						height:90px;
+						background:pink;
+						float:left;
+						margin-left:20px;
+						margin-top:10px;
+					}
+					
+				#s2{
+					width:580px;
+					height:450px;
+					background:brown;
+					float:left;
+					margin-top:10px;
+					margin-left:2px;
+					
+				}
+					#s22{
+						width:570px;
+						height:70px;
+						background:blue;
+						float:left;
+						margin-left:10px;
+						text-decoration:underline;
+					}
+							
+					
+					
+					#s23{
+						width:570px;
+						height:330px;
+						background:cyan;
+						float:left;
+						margin-left:10px;
+						
+					
+					}
+						#s24{
+							width:285px;
+							height:320px;
+							background:red;
+							float:left;
+							
+						
+						}
+							#s24 img{
+								width:250px;
+								height:250px;
+								margin-top:10px;
+								margin-left:10px;
+							}
+						
+						#s25{
+							width:285px;
+							height:320px;
+							background:green;
+							float:left;
+							
+						}
+						
+					
+					
+				#s3{
+					width:300px;
+					height:520px;
+					background:gray;
+					float:left;
+					margin-top:10px;
+					margin-left:2px;
+				}
+					#s33{
+						width:290px;
+						height:500px;
+						background:pink;
+						float:left;
+						margin-top:10px;
+						margin:10px 5px 10px 5px;
+						
+							
+						}
+						#s34{
+							width:290px;
+							height:80px;
+							background:green;
+							float:left;	
+							text-decoration:underline;
+						}
+						#s35{
+							width:280px;
+							height:400px;
+							background:yellow;
+							float:left;	
+							
+						}
+							#s36{
+								width:280px;
+								height:50px;
+								background:red;
+								float:left;
+								margin-left:2px;	
+							}
+			
+			#foxarea{
+				width:1200px;
+				height:370px;
+				background:pink;
+				float:left;
+			}
+				#fox1{
+					width:1200px;
+					height:70px;
+					background:green;
+					float:left;
+				}
+				#fox1 hr{
+					margin-top:-25px;
+				}
+						
+				
+				
+				#fox2{
+					width:400px;
+					height:280px;
+					float:left;
+					background:gray;
+					margin-top:10px;
+					margin-left:100px;
+					
+				}
+					#fox2 img{
+						width:400px;
+						height:280px;
+					}
+						
+			#mitarea{
+				width:1200px;
+				height:400px;
+				background:orange;
+				float:left;
+			}
+				#m11{
+					width:1200px;
+					height:60px;
+					background:red;
+					float:left;
+				}
+				#m12{
+					width:1200px;
+					height:60px;
+					background:#784318;
+					float:left;
+					margin-top:10px;
+					margin-right:5px;
+					
+				}
+				
+				
+				.box{
+					width:140px;
+					height:130px;
+					background:white;
+					margin:40px;
+					float:left;
+				
+				}
+				.box img{
+					width:140px;
+					height:50px;
+					margin-top:10px;
+				}	
+			
+			
+			
+			
+			
+			#shooterarea{
+				width:1200px;
+				height:380px;
+				background:gray;
+				float:left;
+			}
+				#sh1{
+					width:300px;
+					height:330px;
+					background:pink;
+					float:left;
+					margin-top:20px;
+					
+					
+				}
+				#sh1 ul li{
+					list-style:none;	
+				}
+				#sh1 h2{
+					color:orange;
+						
+				}
+				#sh1 ul li a {
+					color:white;
+					text-decoration:none;	
+				}
+				#sh1 ul li a:hover {
+					color:white;
+					text-decoration:underline;	
+				}
+				
+				
+					
+					
+					
+					
+					
+				#sh2{
+					width:300px;
+					height:330px;
+					background:green;
+					float:left;
+					margin-top:20px;
+					
+				}
+					#sh2 ul li{
+						list-style:none;	
+					}
+					#sh2 h2{
+						color:orange;
+						
+					}
+				#sh3{
+					width:300px;
+					height:330px;
+					background:pink;
+					float:left;
+					margin-top:20px;
+					
+				}
+					#sh3 ul li{
+						list-style:none;	
+					}
+				#sh4{
+					width:300px;
+					height:330px;
+					background:red;
+					float:left;
+					margin-top:20px;
+					
+				}
+					#sh4 ul li{
+						list-style:none;	
+					}
 			
 		</style>
-		<link rel="stylesheet" type="text/css" href="style.css"/>
-		<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
 	</head>
 	<body>
 		<div id="mainarea">
@@ -42,12 +900,42 @@
 					
 				</div>
 			</div>
+			<div id="menu1">
+				<div id="contentarea">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Admission</a></li>
+						<li><a href="#">Academic</a></li>
+						<li><a href="#">Recruitment</a></li>
+						<li><a href="#">Transfer</a></li>
+						<li><a href="#">Finance</a></li>
+						<li><a href="#">Construction</a></li>
+						<li><a href="#">Committees</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
 			<div id="slidearea">
 				<div class="contentarea">
 					<img src="anthem.jpg">
 				</div>
 			</div>
 			<div id="boxarea">
+				<div class="contentarea">
+					<div id="b1">
+						<h2 align="center">Important News<i class="fa fa-bell"> </i></h2> 
+
+					</div>
+					<div id="b2">
+						<h3><marquee direction="left" scrollamount="5" width="800px" height="30px" onmouseover="this.stop()" onmouseout="this.start()">
+Declaration of CPF rate 7.10 for the quarter 1.10.2021 to 31.12.2021 Notice regarding Biometric Verification under Direct Recruitment Drive- July 2019  Bhasha Sangam - Celebrating the Linguistic Diversity of India  Notification for Class VI JNVST-2022</marquee></h3>
+				
+					</div>
+					<div id="b3">
+					</div>
+					
+				</div>
 			</div>
 			<div id="carea">
 				<div class="contentarea">
@@ -56,7 +944,8 @@
 
 					</div>
 					<div id="c2">
-						<h1 align="center"><font color="blue"><i class="fa fa-spotify"></i>Vision</font></h1>
+						<h1 align="center"><font color="blue">Vision</font></h1>
+						<hr width="80px" color="orange">	
 					</div>
 				
 					
@@ -84,6 +973,7 @@
 					</div>
 					<div id="f1area">
 						<div id="f11">
+							
 							<img src="sir.png">
 						</div>
 						<div id="f12">
@@ -95,6 +985,97 @@
 					
 					</div>
 					<div id="f2area">
+						<div id="f22">
+							<h1><font color="#1F618D 
+">Student Corner</font></h1> 
+
+						
+						</div>
+						<div id="f23">
+							<div id="f231">
+								<div id="f231area">
+									<i class="fa fa-file-text"> </i>
+								</div>
+								<div id="f232area">
+									<h4 align="center">Enrolment Policy
+Enrolment policy of students</h4>
+								</div>
+							</div>
+							<div id="f232">
+								<div id="f233area">
+									<i class="fa fa-flag-o"> </i>
+								</div>
+								<div id="f234area">
+									<h4 align="center">Academic Activities
+Co-Curricular</h4>
+								</div>
+							</div>
+						</div>
+						<div id="f24">
+							<div id="f241">
+								<div id="f241area">
+									<i class="fa fa-book"> </i>
+								</div>
+								<div id="f242area">
+									<h4 align="center">National Integration 
+Three Language Formula</h4>
+								</div>
+							</div>
+							<div id="f242">
+								<div id="fact">
+									<i class="fa fa-clone"> </i>
+								</div>
+								<div id="act">
+								<h4 align="center">Admissions in JNV
+Selection Test</h4>
+								</div>
+							</div>
+						
+						</div>
+						<div id="f25">
+							<div id="f251">
+								<div id="f251area">
+									<i class="fa fa-chain-broken"> </i>
+								</div>
+								<div id="f252area">
+								<h4 align="center">Facilities in JNV
+Facilities in JNV for students</h4>
+								</div>	
+							</div>
+							<div id="f252">
+								<div id="fix">
+									<i class="fa fa-trophy"> </i>
+								</div>
+								<div id="mix">
+								<h4 align="center">JNV Results
+JNV results</h4>
+								</div>	
+							</div>	
+						</div>
+						<div id="f26">
+							<div id="f261">
+								<div id="f261area">
+									<i class="fa fa-bar-chart"> </i>
+								</div>
+								<div id="f262area">
+								<h4 align="center">Prospectus Cum Application Form</h4>
+ 
+								</div>
+							</div>
+							<div id="f262">
+								<div id="nit">
+									<i class="fa fa-users"> </i>
+								</div>
+								<div id="bit">	
+							
+<h4 align="center">Our Pride
+Alumni Members of NVS</h4>
+								</div>
+							</div>
+					
+								
+						</div>	
+						
 					</div>
 					<div id="f3area">
 						<div id="f13">
@@ -114,27 +1095,62 @@
 				<div class="contentarea">
 					<div id="s1">
 						<div id="sh11">
+							<h1 align="center">Administration</h1>
+
 						</div>
 						<div id="sh12">
+							<h3 align="center"><i class="fa fa-rotate-right"> </i> Administrative<br>notifications/order</h3>
+							
 						</div>
 						<div id="sh13">
+							<h3 align="center"><i class="fa fa-list"> </i>Promotion Notification <br>& Order</h3>
 						</div>
 						<div id="sh14">
+							<h3 align="center"><i class="fa fa-list-ol"> </i>Seniority Lists</h3>
+						</div>
+						<div id="sh15">
+							<h3 align="center"><i class="fa fa-list-ol"> </i>List Of CGHS<br> empanelled hospitals<br> for employees of NVS</h3>
 						</div>
 						
 						
 					</div>
 					<div id="s2">
+						<div id="s22">
+							<h2 align="center">Achievements /Creativity of JNV Students</h2>
+							
+ 
+						</div>
+						<div id="s23">
+							<div id="s24">
+								<img src="g.png">
+							</div>
+							<div id="s25">
+								<h4 align="center">Inauguration of Lecture @ Schools programme during World Space Week celebrations by Indian Space REsearch Organisation (ISRO) at JNV, Mahe. A galaxy of senior scientists including Project Director, GSLV interacted with the students. GSLVProject Director in front of the model of GSLV Mark III with the students.</h4>
+
+
+							</div>
+						</div>
 					</div>
 					<div id="s3">
+						<div id="s33">
+							<div id="s34">
+								<h1 align="center">What's New</h1>	
+							</div>
+							<div id="s35">
+								<div id="s36">
+								</div>	
+							</div>	
+						</div>
+						
 					</div>
+					
 				</div>
 			</div>
 			
 			<div id="foxarea">
 				<div id="fox1">
 					<h1 align="center"><font color="white">Gallery</font></h1>
-
+					<hr width="60px" color="orange">	
 				</div>
 				<div id="fox2">
 					<img src="d.png">	
@@ -173,35 +1189,54 @@
 			<div id="shooterarea">
 				<div id="contentarea">
 					<div id="sh1">
-						<h2 align="center">Personnel<br> Information System</h2>
-						<h4 align="center"><font color="white"><a href="#">Admin/employee login</font></a></h4>
-						<h4 align="center"><font color="white"><a href="#">Master Tranier login</font></a></h4>
-							<h2 align="center">Social</h2>
+						<h2>Personal Information System</h2>
 						
+						<ul>	
+								
+							<li><a href="#">Admin/employee login</a></li>
+							<li><a href="#">Master Tranier login</a></li>
+							
+						</ul>
+						<h2>Social</h2>
 					</div>
 					<div id="sh2">
-						<h2 align="center">Important Links</h2>
-						<h4 align="center"><a href="#">Official Language Hindi<br>Rajbhasha</a></h4>
-						<h4 align="center"><a href="#">Archive</a></h4>
-						<h4 align="center"><a href="#">RTI Act 2005</a></h4>
-						<h4 align="center"><a href="#">Downloads</a></h4>
-						<h4 align="center"><a href="#">Tender</a></h4>
-						<h4 align="center"><a href="#">Grievance Portal</a></h4>	
+						<h2> Important Links</h2>
+						<ul>
+							
+							<li><a href="#">Official Language Hindi<br>Rajbhasha</a></li>
+							<li><a href="#">Archive</a></li>
+							<li><a href="#">RTI Act 2005</a></li>
+							<li><a href="#">Downloads</a></li>
+							<li><a href="#">Tender</a></li>
+							<li><a href="#">Grievance Portal</a></li>
+						</ul>	
 
 					</div>
 					<div id="sh3">
-						<h2 align="center">Quick Links</h2>
-						<h4 align="center"><a href="#">Term &<br> conditions</a></h4>
-						<h4 align="center"><a href="#">Privacy Policy</a></h4>
-						<h4 align="center"><a href="#">Copyright Policy</a></h4>
-						<h4 align="center"><a href="#">Hyperlink Policy</a></h4>
-						<h4 align="center"><a href="#">Disclaimer</a></h4>	
-						<h4 align="center"><a href="#">Sitemap</a></h4>
+						<h2>Quick Links</h2>
+						<ul>
+							
+							<li><a href="#">Term &<br> conditions</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Copyright Policy</a></li>
+							<li><a href="#">Hyperlink Policy</a></li>
+							<li><a href="#">Disclaimer</a></li>	
+							<li><a href="#">Sitemap</a></li>
+						</ul>
 					</div>
 					<div id="sh4">
-						<h2 align="center">Contact Info</h2>
-						
+						<ul>
+							<h2>Contact Info</h2>
+							<li>Phone Number</li>
+							<li>0120 - 2405968, 69, 70, 71, 72, 73</li>
+							<li>Fax</li>
+							<li>0120 - 2405922</li>
 							
+							Location
+							Navodaya Vidyalaya Samiti, B-15, Institutional Area, Sector 62, Noida, Uttar Pradesh 201307
+
+				
+						</ul>	
 
 							
 
