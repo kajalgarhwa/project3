@@ -1,4 +1,6 @@
-<html>
+lines (1126 sloc)  26.3 KB
+   
+﻿<html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
 		<title></title>
@@ -21,23 +23,31 @@
 			
 			#toparea{
 				width:1200px;
-				height:40px;
+				height:30px;
 				background:green;
 			}
 				#top1{
 					width:600px;
-					height:40px;
-					background:purple;
+					height:30px;
+					background:rgb(116, 53, 63);
 					float:left;
 				}
+				#top1 p{
+					margin-left:50px;
+					}
+					
 				#top2{
 					width:600px;
-					height:40px;
+					height:30px;
 					background:yellow;
 					float:left;
 					
 				}
-			
+					#top2 p{
+						text-align:center;
+					}
+					
+					
 			#menuarea{
 				width:1200px;
 				height:125px;
@@ -102,19 +112,44 @@
 				
 			#menu1{
 				width:1200px;
-				height:60px;
-				background:cyan;
+				height:50px;
+				background:rgb(33, 37, 85);
 				float:left;
 			}
 				#menu1 ul li{
 					list-style:none;
 					float:left;
+					
 				}
 				#menu1 ul li a:link,#menu1 ul li a:visited{
-						padding:10px 20px;
+						padding:15px 15px;
 						text-decoration:none;
 						border-right:solid 1px #000;
+						color:white;
+						
+						
 					}
+					#menu1 ul li a:hover{
+						color:white;
+						background:red;
+
+					}
+					#menu1 ul li ul{
+							display:none;
+						}
+					#menu1 ul li:hover ul{
+							display:block;
+							position:absolute;
+							z-index:100;
+						}
+					#menu1 ul li :hover ul li{
+							float:none;
+						}
+					
+					
+					
+					
+				
 			#slidearea{
 				width:1200px;
 				height:370px;
@@ -138,6 +173,14 @@
 					background:red;
 					float:left;
 				}
+				#b1 h2 {
+					color:#F1C40F;
+					text-align:center;
+					
+				}	
+
+				
+				
 				#b2{
 					width:800px;
 					height:60px;
@@ -235,9 +278,16 @@
 			#footerarea{
 				width:1200px;
 				height:700px;
-				background:skyblue;
+				background:url('l.jfif') fixed;
+				background-size:cover;
 				float:left;
 				}
+				.farea{
+					width:1200px;
+					height:700px;
+					background:rgba(0,0,0,0.6);
+				}
+			
 				#foot{
 					width:1200px;
 					height:60px;
@@ -252,7 +302,7 @@
 					height:540px;
 					background:cyan;
 					float:left;
-					margin-top:20px;
+					margin-top:40px;
 					margin-left:10px;
 					
 					
@@ -262,6 +312,7 @@
 						height:270px;
 						background:white;
 						float:left;
+						
 					}
 						#f11 img{
 							width:300px;
@@ -281,7 +332,7 @@
 					height:540px;
 					background:white;
 					float:left;
-					margin-top:20px;
+					margin-top:40px;
 					margin-left:10px;
 				}
 					#f22{
@@ -303,18 +354,24 @@
 					}
 						#f231{
 							width:270px;
-							height:100px;
-							background:yellow;
+							height:90px;
+							/*background:yellow;*/
 							float:left;	
 							
 						}
+						
 							#f231area{
 								width:90px;
 								height:90px;
-								background:red;
+								background:white;
 								float:left;	
 								border-radius:50px;
+								
 							}
+								#f231area:hover{
+									background:red;
+								}
+							
 								#f231area i{
 									width:90px;
 									height:90px;
@@ -324,7 +381,7 @@
 								}
 							#f232area{
 								width:180px;
-								height:100px;
+								height:90px;
 								background:pink;
 								float:left;	
 							}
@@ -342,6 +399,9 @@
 								float:left;	
 								border-radius:50px;
 							}
+							#f233area:hover{
+									background:blue;
+								}
 								#f233area i{
 									width:90px;
 									height:90px;
@@ -373,9 +433,12 @@
 								#f241area{
 									width:90px;
 									height:90px;
-									background:red;
+									background:gray;
 									float:left;	
 									border-radius:50px;
+								}
+								#f241area:hover{
+									background:white;
 								}
 									#f241area i{
 										width:90px;
@@ -403,6 +466,9 @@
 									background:white;
 									float:left;	
 									border-radius:50px;
+								}
+								#fact:hover{
+									background:green;
 								}
 									#fact i{
 										width:90px;
@@ -438,6 +504,9 @@
 								float:left;	
 								border-radius:50px;
 								}
+								#f251area:hover{
+									background:red;
+								}
 									#f251area i{
 										width:90px;
 										height:90px;
@@ -463,6 +532,9 @@
 								background:white;
 								float:left;	
 								border-radius:50px;
+								}
+								#fix:hover{
+									background:red;
 								}
 									#fix i{
 										width:90px;
@@ -496,6 +568,9 @@
 								float:left;	
 								border-radius:50px;
 								}
+								#f261area:hover{
+									background:red;
+								}
 									#f261area i{
 										width:90px;
 										height:90px;
@@ -522,6 +597,9 @@
 								float:left;	
 								border-radius:50px;
 								}
+								#nit:hover{
+									background:red;
+								}
 									#nit i{
 										width:90px;
 										height:90px;
@@ -540,7 +618,7 @@
 					height:540px;
 					background:orange;
 					float:left;
-					margin-top:20px;
+					margin-top:40px;
 					margin-left:10px;
 					
 				}
@@ -573,17 +651,17 @@
 				#s1{
 					width:300px;
 					height:520px;
-					background:gray;
+					background: #D7DBDD;
 					float:left;
 					margin-top:10px;
-					margin-left:2px;
+					margin-left:3px;
 					
 				
 				}
 					#sh11{
 						width:270px;
 						height:100px;
-						background:green;
+						background:#ABB2B9;
 						float:left;
 						margin-left:20px;
 						margin-top:10px;
@@ -594,7 +672,7 @@
 					#sh12{
 						width:270px;
 						height:90px;
-						background:red;
+						background:#D35400;
 						float:left;
 						margin-left:20px;
 						margin-top:10px;
@@ -603,7 +681,7 @@
 					#sh13{
 						width:270px;
 						height:90px;
-						background:pink;
+						background:#82E0AA;
 						float:left;
 						margin-left:20px;
 						margin-top:10px;
@@ -611,7 +689,7 @@
 					#sh14{
 						width:270px;
 						height:90px;
-						background:blue;
+						background:#5DADE2;
 						float:left;
 						margin-left:20px;
 						margin-top:10px;
@@ -621,7 +699,7 @@
 					#sh15{
 						width:270px;
 						height:90px;
-						background:pink;
+						background:#D35400;
 						float:left;
 						margin-left:20px;
 						margin-top:10px;
@@ -630,16 +708,16 @@
 				#s2{
 					width:580px;
 					height:450px;
-					background:brown;
+					background:#D7DBDD;
 					float:left;
 					margin-top:10px;
-					margin-left:2px;
+					margin-left:3px;
 					
 				}
 					#s22{
 						width:570px;
 						height:70px;
-						background:blue;
+						background:#D7DBDD;
 						float:left;
 						margin-left:10px;
 						text-decoration:underline;
@@ -649,18 +727,19 @@
 					
 					#s23{
 						width:570px;
-						height:330px;
-						background:cyan;
+						height:340px;
+						background:#D7DBDD;
 						float:left;
 						margin-left:10px;
 						
 					
 					}
 						#s24{
-							width:285px;
-							height:320px;
-							background:red;
+							width:280px;
+							height:270px;
+							background:#D7DBDD;
 							float:left;
+							border:1px solid black;
 							
 						
 						}
@@ -669,14 +748,20 @@
 								height:250px;
 								margin-top:10px;
 								margin-left:10px;
+								border:1px solid black;
+								box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.29);
+								
 							}
 						
 						#s25{
-							width:285px;
-							height:320px;
+							width:280px;
+							height:270px;
 							background:green;
 							float:left;
 							
+						}
+						#s25 p{
+							text-align:center;
 						}
 						
 					
@@ -687,7 +772,7 @@
 					background:gray;
 					float:left;
 					margin-top:10px;
-					margin-left:2px;
+					margin-left:5px;
 				}
 					#s33{
 						width:290px;
@@ -768,7 +853,7 @@
 				#m12{
 					width:1150px;
 					height:50px;
-					background:rgb(28, 28, 28);
+					background:rgb(116, 53, 63);
 					
 					float:left;
 					margin-top:10px;
@@ -806,15 +891,16 @@
 			#shooterarea{
 				width:1200px;
 				height:380px;
-				background:gray;
+				background:rgb(21, 21, 21);
 				float:left;
 			}
 				#sh1{
-					width:300px;
-					height:330px;
+					width:270px;
+					height:260px;
 					background:pink;
 					float:left;
-					margin-top:20px;
+					margin-top:5px;
+					margin-left:60px;
 					
 					
 				}
@@ -822,10 +908,10 @@
 					list-style:none;	
 				}
 				#sh1 ul i{
-					color:orange;	
+					color:rgb(244, 160, 36);	
 				}
 				#sh1 h2{
-					color:orange;
+					color:rgb(244, 160, 36);
 						
 				}
 				#sh1 ul li a {
@@ -844,18 +930,18 @@
 					
 					
 				#sh2{
-					width:300px;
-					height:330px;
+					width:270px;
+					height:260px;
 					background:green;
 					float:left;
-					margin-top:20px;
+					margin-top:5px;
 					
 				}
 					#sh2 ul li{
 						list-style:none;	
 					}
 					#sh2 h2{
-						color:orange;
+						color:rgb(244, 160, 36);
 						}
 					#sh2 ul li a {
 						color:white;
@@ -866,24 +952,27 @@
 						text-decoration:underline;	
 						}
 					#sh2 ul i{
-						color:orange;	
+						color:rgb(244, 160, 36);	
 					}
+					#sh2 ul p{
+						color:white;
+						}
 				#sh3{
-					width:300px;
-					height:330px;
+					width:270px;
+					height:260px;
 					background:pink;
 					float:left;
-					margin-top:20px;
+					margin-top:5px;
 					
 				}
 					#sh3 ul li{
 						list-style:none;	
 					}
 					#sh3 ul i{
-						color:orange;	
+						color:rgb(244, 160, 36);	
 					}
 					#sh3 h2{
-						color:orange;
+						color:rgb(244, 160, 36);
 						}
 					#sh3 ul li a {
 						color:white;
@@ -895,11 +984,11 @@
 						}
 					
 				#sh4{
-					width:300px;
-					height:330px;
+					width:290px;
+					height:260px;
 					background:red;
 					float:left;
-					margin-top:20px;
+					margin-top:5px;
 					
 				}
 					#sh4 ul li{
@@ -913,8 +1002,10 @@
 			<div id="toparea">
 				<div class="contentarea">
 					<div id="top1">
+						<p><i class="fa fa-calendar"> </i>Wed Dec 01 2021 , 18:27</p>
 					</div>
 					<div id="top2">
+						<p>Skip to main content<i class="fa fa-"> </i></p>
 					</div>
 					
 					
@@ -948,16 +1039,39 @@ Navodaya Vidyalaya Samiti</h2>
 			<div id="menu1">
 				<div id="contentarea">
 					<ul>
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About US</a></li>
-						<li><a href="#">Admission</a></li>
-						<li><a href="#">Academic</a></li>
-						<li><a href="#">Recruitment</a></li>
-						<li><a href="#">Transfer</a></li>
-						<li><a href="#">Finance</a></li>
-						<li><a href="#">Construction</a></li>
-						<li><a href="#">Committees</a></li>
-						<li><a href="#">Contact US</a></li>
+						<li><a href="#"><i class="fa fa-home"> </i>Home</a></li>
+						<li><a href="#"><i class="fa fa-info-circle"> </i>About US</a>
+
+
+						<ul>
+							<li><a href="#">secretary</a></li>
+							<li><a href="#">commissioner,NVS</a></li>
+							<li><a href="#">Vision & Mission</a></li>
+							<li><a href="#">Executive committee</a></li>
+							<li><a href="#">Adminograph of NVS</a></li>
+							<li><a href="#">Establishment of JNVS</a></li>
+
+						
+						</ul>
+
+
+
+
+						</li>
+
+							
+
+
+
+						
+						<li><a href="#"><i class="fa fa-user"> </i>Admission</a></li>
+						<li><a href="#"><i class="fa fa-book"> </i>Academic</a></li>
+						<li><a href="#"><i class="fa fa-download"> </i>Recruitment</a></li>
+						<li><a href="#"><i class="fa fa-rotate-right"> </i>Transfer</a></li>
+						<li><a href="#"><i class="fa fa-money"> </i>Finance</a></li>
+						<li><a href="#"><i class="fa fa-building-o"> </i>Construction</a></li>
+						<li><a href="#"><i class="fa fa-"> </i>Committees</a></li>
+						<li><a href="#"><i class="fa fa-envelope-o"> </i>Contact US</a></li>
 					</ul>
 				</div>
 			</div>
@@ -969,7 +1083,7 @@ Navodaya Vidyalaya Samiti</h2>
 			<div id="boxarea">
 				<div class="contentarea">
 					<div id="b1">
-						<h2 align="center">Important News<i class="fa fa-bell"> </i></h2> 
+						<h2>Important News<i class="fa fa-bell"> </i></h2> 
 
 					</div>
 					<div id="b2">
@@ -1006,13 +1120,14 @@ Declaration of CPF rate 7.10 for the quarter 1.10.2021 to 31.12.2021 Notice rega
 					</div>
 						
 					<div id="d2">
-						 <h3>To provide good quality modern education-including a strong component of culture, inculcation of values, awareness of the environment, adventure activities and physical education- to the talented children predominantly from the rural areas without regard to their family's socio-economic conditions.</h3>
+						 <h3><i class="fa fa-quote-left"> </i>To provide good quality modern education-including a strong component of culture, inculcation of values, awareness of the environment, adventure activities and physical education- to the talented children predominantly from the rural areas without regard to their family's socio-economic conditions.<i class="fa fa-quote-right"> </i></h3> 
 					</div>
 				</div>
 				
 				
 			</div>
 			<div id="footerarea">
+				<div class="farea">
 				<div class="contentarea">
 					<div id="foot">
 						
@@ -1125,6 +1240,7 @@ Alumni Members of NVS</h4>
 						
 					</div>
 					<div id="f3area">
+						
 						<div id="f13">
 							<img src="smt.jpg">
 						</div>
@@ -1137,6 +1253,7 @@ Alumni Members of NVS</h4>
 						</div>
 					</div>
 				</div>
+				</div>
 			</div>
 			<div id="shuterarea">
 				<div class="contentarea">
@@ -1146,7 +1263,7 @@ Alumni Members of NVS</h4>
 
 						</div>
 						<div id="sh12">
-							<h3 align="center"><i class="fa fa-rotate-right"> </i> Administrative<br>notifications/order</h3>
+							<h3 align="center"><i class="fa fa-rotate-right"> </i> Administrative<br>notifications/order</h2>
 							
 						</div>
 						<div id="sh13">
@@ -1172,7 +1289,7 @@ Alumni Members of NVS</h4>
 								<img src="g.png">
 							</div>
 							<div id="s25">
-								<h4 align="center">Inauguration of Lecture @ Schools programme during World Space Week celebrations by Indian Space REsearch Organisation (ISRO) at JNV, Mahe. A galaxy of senior scientists including Project Director, GSLV interacted with the students. GSLVProject Director in front of the model of GSLV Mark III with the students.</h4>
+								<p>Inauguration of Lecture @ Schools programme during World Space Week celebrations by Indian Space REsearch Organisation (ISRO) at JNV, Mahe. A galaxy of senior scientists including Project Director, GSLV interacted with the students. GSLVProject Director in front of the model of GSLV Mark III with the students.</p>
 
 
 							</div>
@@ -1255,7 +1372,8 @@ Alumni Members of NVS</h4>
 							<li><a href="#"><i class="fa fa-hand-o-right"> </i>RTI Act 2005</a></li>
 							<li><a href="#"><i class="fa fa-hand-o-right"> </i>Downloads</a></li>
 							<li><a href="#"><i class="fa fa-hand-o-right"> </i>Tender</a></li>
-							<li><a href="#"><i class="fa fa-hand-o-right"> </i>Grievance Portal</a></li>
+							<li><a href="#"><i class="fa fa-hand-o-right"> </i>Grievance Portal</a></li><br>
+							 <p><i class="fa fa-user"> </i> Visitor Count: 790572</p>
 						</ul>	
 
 					</div>
