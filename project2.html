@@ -24,28 +24,40 @@ lines (1126 sloc)  26.3 KB
 			#toparea{
 				width:1200px;
 				height:30px;
-				background:green;
+				background:rgb(68, 73, 68);
 			}
 				#top1{
 					width:600px;
 					height:30px;
-					background:rgb(116, 53, 63);
+					/*background:rgb(116, 53, 63);*/
 					float:left;
 				}
-				#top1 p{
-					margin-left:50px;
+				#top1 i{
+					margin-left:70px;
+					margin-top:10px;
+					color:white;
 					}
+				#top1 b{
+					color:white;
+				}	
 					
 				#top2{
 					width:600px;
 					height:30px;
-					background:yellow;
+					/*background:yellow;*/
 					float:left;
 					
 				}
 					#top2 p{
 						text-align:center;
+						margin-top:5px;
+						color:white;
 					}
+					#top2 i{
+						background:black;
+						margin:3px;
+					}
+					
 					
 					
 			#menuarea{
@@ -121,6 +133,7 @@ lines (1126 sloc)  26.3 KB
 					float:left;
 					
 				}
+				
 				#menu1 ul li a:link,#menu1 ul li a:visited{
 						padding:15px 15px;
 						text-decoration:none;
@@ -129,6 +142,7 @@ lines (1126 sloc)  26.3 KB
 						
 						
 					}
+				
 					#menu1 ul li a:hover{
 						color:white;
 						background:red;
@@ -144,6 +158,7 @@ lines (1126 sloc)  26.3 KB
 						}
 					#menu1 ul li :hover ul li{
 							float:none;
+							
 						}
 					
 					
@@ -163,42 +178,44 @@ lines (1126 sloc)  26.3 KB
 				}
 			#boxarea{
 				width:1200px;
-				height:60px;
+				height:40px;
 				background:yellow;
 				float:left;
 			}
 				#b1{
 					width:300px;
-					height:60px;
-					background:red;
+					height:40px;
+					background:linear-gradient(30deg,rgb(91, 13, 3) 0%,rgb(91, 13, 3) 80%,#F2AB07 81%,#F2AB07 100%  );
 					float:left;
 				}
-				#b1 h2 {
+				#b1 h3 {
 					color:#F1C40F;
 					text-align:center;
+					margin:10px;
 					
 				}	
 
 				
 				
 				#b2{
-					width:800px;
-					height:60px;
-					background:brown;
+					width:900px;
+					height:40px;
+					background:#F2AB07;
 					float:left;
 				}
-					#b2 h3{
+					#b2 h4{
 					
-					width:800px;
+					width:900px;
 					height:30px;
 					margin-right:100px;
+					margin:10px;
 					}
-				#b3{
+				/*#b3{
 					width:100px;
-					height:60px;
+					height:40px;
 					background:green;
 					float:left;
-				}
+				}*/
 			
 			#carea{
 				width:1200px;
@@ -290,11 +307,36 @@ lines (1126 sloc)  26.3 KB
 			
 				#foot{
 					width:1200px;
-					height:60px;
-					background:green;
+					height:80px;
+					/*background:green;*/
 					float:left;
 					
 				}
+					#foot1{
+						width:600px;
+						height:80px;
+						/*background:red;*/
+						float:left;
+					
+					}
+					#foot1 h1{
+						margin-left:20px;
+						margin-top:40px;
+						color:white;
+					}
+					#foot2{
+						width:600px;
+						height:80px;
+						/*background:yellow;*/
+						float:left;
+					
+					}
+					#foot2 h1{
+						text-align:right;
+						margin-right:70px;
+						margin-top:40px;
+						color:white;
+					}
 				
 				
 				#f1area{
@@ -349,7 +391,7 @@ lines (1126 sloc)  26.3 KB
 					#f23{
 						width:540px;
 						height:100px;
-						background:pink;
+						/*background:pink;*/
 						float:left;	
 					}
 						#f231{
@@ -361,11 +403,15 @@ lines (1126 sloc)  26.3 KB
 						}
 						
 							#f231area{
-								width:90px;
-								height:90px;
+								width:60px;
+								height:60px;
 								background:white;
 								float:left;	
 								border-radius:50px;
+								margin-top:10px;
+								margin-left:10px;
+								border:1px solid rgb(110, 123, 110);
+								
 								
 							}
 								#f231area:hover{
@@ -373,46 +419,57 @@ lines (1126 sloc)  26.3 KB
 								}
 							
 								#f231area i{
-									width:90px;
-									height:90px;
-									margin-left:30px;
-									margin-top:25px;
-									font-size:40px;			
+									width:60px;
+									height:60px;
+									margin-left:15px;
+									margin-top:10px;
+									font-size:35px;
+												
 								}
 							#f232area{
 								width:180px;
 								height:90px;
-								background:pink;
+								/*background:pink;*/
 								float:left;	
 							}
 						
 						#f232{
 							width:270px;
 							height:100px;
-							background:purple;
+							/*background:purple;*/
 							float:left;	
 						}	
 							#f233area{
-								width:90px;
-								height:90px;
-								background:red;
+								width:60px;
+								height:60px;
+								background:white;
 								float:left;	
 								border-radius:50px;
+								margin-top:10px;
+								margin-left:8px;
+								border:1px solid 
+rgb(110, 123, 110)
+ ;
+								
 							}
 							#f233area:hover{
-									background:blue;
+									background:rgb(1, 41, 81);
 								}
 								#f233area i{
-									width:90px;
-									height:90px;
-									margin-left:30px;
-									margin-top:25px;
-									font-size:40px;			
-								}
+									width:60px;
+									height:60px;
+									margin-left:15px;
+									margin-top:10px;
+									font-size:35px;	
+		
+								}	
+									
+											
+								
 							#f234area{
-								width:180px;
+								width:200px;
 								height:100px;
-								background:pink;
+								/*background:pink;*/
 								float:left;	
 							}
 							
@@ -420,67 +477,77 @@ lines (1126 sloc)  26.3 KB
 					#f24{
 						width:540px;
 						height:100px;
-						background:brown;
+						/*background:brown;*/
 						float:left;	
 					}
 							#f241{
 								width:270px;
 								height:100px;
-								background:green;
+								/*background:green;*/
 								float:left;	
 								
 							}
 								#f241area{
-									width:90px;
-									height:90px;
-									background:gray;
+									width:60px;
+									height:60px;
+									/*background:gray;*/
 									float:left;	
 									border-radius:50px;
+									margin-top:10px;
+									margin-left:10px;
+									border:1px solid 
+rgb(110, 123, 110)
+ ;
 								}
 								#f241area:hover{
-									background:white;
+									background:yellow;
 								}
 									#f241area i{
-										width:90px;
-										height:90px;
-										margin-left:30px;
-										margin-top:25px;
-										font-size:40px;			
+										width:60px;
+										height:60px;
+										margin-left:15px;
+										margin-top:10px;
+										font-size:35px;			
 									}
 								#f242area{
 									width:180px;
 									height:100px;
-									background:gray;
+									/*background:gray;*/
 									float:left;	
 								}
 							
 							#f242{
 								width:270px;
 								height:100px;
-								background:red;
+								/*background:red;*/
 								float:left;	
 							}
 								#fact{
-									width:90px;
-									height:90px;
+									width:60px;
+									height:60px;
 									background:white;
 									float:left;	
 									border-radius:50px;
+									margin-top:10px;
+									margin-left:10px;
+									border:1px solid 
+rgb(110, 123, 110)
+ ;
 								}
 								#fact:hover{
-									background:green;
+									background:#900C3F;
 								}
 									#fact i{
-										width:90px;
-										height:90px;
-										margin-left:30px;
-										margin-top:25px;
-										font-size:40px;			
+										width:60px;
+										height:60px;
+										margin-left:15px;
+										margin-top:10px;
+										font-size:35px;			
 									}
 								#act{
 									width:180px;
 									height:100px;
-									background:gray;
+									/*background:gray;*/
 									float:left;	
 								}
 							
@@ -488,129 +555,148 @@ lines (1126 sloc)  26.3 KB
 					#f25{
 						width:540px;
 						height:100px;
-						background:blue;
+						/*background:blue;*/
 						float:left;	
 					}
 						#f251{
 							width:270px;
 							height:100px;
-							background:purple;
-							float:left;	
+							/*background:purple;*/
+							float:left;
+								
 						}
 							#f251area{
-								width:90px;
-								height:90px;
+								width:60px;
+								height:60px;
 								background:white;
 								float:left;	
 								border-radius:50px;
+								margin-top:10px;
+								margin-left:10px;
+								border:1px solid 
+rgb(110, 123, 110)
+ ;
 								}
 								#f251area:hover{
-									background:red;
+									background:#FF5733 ;
 								}
 									#f251area i{
-										width:90px;
-										height:90px;
-										margin-left:30px;
-										margin-top:25px;
-										font-size:40px;			
+										width:60px;
+										height:60px;
+										margin-left:15px;
+										margin-top:10px;
+										font-size:35px;			
 									}
 							#f252area{
 								width:180px;
 								height:100px;
-								background:yellow;
+								/*background:yellow;*/
 								float:left;	
 								}
 						#f252{
 							width:270px;
 							height:100px;
-							background:black;
+							/*background:black;*/
 							float:left;	
 						}
 							#fix{
-								width:90px;
-								height:90px;
+								width:60px;
+								height:60px;
 								background:white;
 								float:left;	
 								border-radius:50px;
+								margin-top:10px;
+								margin-left:10px;
+								border:1px solid 
+rgb(110, 123, 110)
+ ;
 								}
 								#fix:hover{
-									background:red;
+									background:rgb(91, 142, 47);
 								}
 									#fix i{
 										width:90px;
 										height:90px;
-										margin-left:30px;
-										margin-top:25px;
-										font-size:40px;			
+										margin-left:15px;
+										margin-top:10px;
+										font-size:35px;			
 									}
 							#mix{
 								width:180px;
 								height:100px;
-								background:yellow;
+								/*background:yellow;*/
 								float:left;	
 								}
 					#f26{
 						width:540px;
 						height:100px;
-						background:red;
+						/*background:red;*/
 						float:left;		
 					}
 						#f261{
 							width:270px;
 							height:100px;
-							background:green;
+							/*background:green;*/
 							float:left;	
 						}
 							#f261area{
-								width:90px;
-								height:90px;
+								width:60px;
+								height:60px;
 								background:white;
 								float:left;	
 								border-radius:50px;
+								margin-top:10px;
+								margin-left:10px;
+								border:1px solid 
+rgb(110, 123, 110)
+ ;
 								}
 								#f261area:hover{
-									background:red;
+									background:blue;
 								}
 									#f261area i{
-										width:90px;
-										height:90px;
-										margin-left:30px;
-										margin-top:25px;
-										font-size:40px;			
+										width:60px;
+										height:60px;
+										margin-left:10px;
+										margin-top:10px;
+										font-size:35px;			
 									}
 							#f262area{
 								width:180px;
 								height:100px;
-								background:pink;
+								/*background:pink;*/
 								float:left;	
 								}
 						#f262{
 							width:270px;
 							height:100px;
-							background:orange;
+							/*background:orange;*/
 							float:left;	
 						}
 							#nit{
-								width:90px;
-								height:90px;
+								width:60px;
+								height:60px;
 								background:white;
 								float:left;	
 								border-radius:50px;
+								margin-top:10px;
+								margin-left:10px;
+								border:1px solid rgb(110, 123, 110);
 								}
 								#nit:hover{
-									background:red;
+									background:rgb(75, 34, 28);
 								}
 									#nit i{
-										width:90px;
-										height:90px;
-										margin-left:30px;
-										margin-top:25px;
-										font-size:40px;			
+										width:60px;
+										height:60px;
+										margin-left:15px;
+										margin-top:10px;
+										font-size:35px;			
 									}
 							#bit{
 								width:180px;
 								height:100px;
-								background:green;
+								/*background:green;*/
 								float:left;	
 								}
 				#f3area{
@@ -669,6 +755,7 @@ lines (1126 sloc)  26.3 KB
 					
 					
 					}
+					
 					#sh12{
 						width:270px;
 						height:90px;
@@ -678,6 +765,8 @@ lines (1126 sloc)  26.3 KB
 						margin-top:10px;
 						
 					}
+					
+					
 					#sh13{
 						width:270px;
 						height:90px;
@@ -762,6 +851,9 @@ lines (1126 sloc)  26.3 KB
 						}
 						#s25 p{
 							text-align:center;
+							font-family:cursive;
+
+
 						}
 						
 					
@@ -836,6 +928,10 @@ lines (1126 sloc)  26.3 KB
 					#fox2 img{
 						width:400px;
 						height:280px;
+						box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.29);
+						border:1px solid black;
+								
+						
 					}
 						
 			#mitarea{
@@ -853,8 +949,8 @@ lines (1126 sloc)  26.3 KB
 				#m12{
 					width:1150px;
 					height:50px;
-					background:rgb(116, 53, 63);
 					
+					background:linear-gradient(#5D0A18,rgb(75, 34, 28)); 
 					float:left;
 					margin-top:10px;
 					margin-left:30px;
@@ -891,27 +987,51 @@ lines (1126 sloc)  26.3 KB
 			#shooterarea{
 				width:1200px;
 				height:380px;
-				background:rgb(21, 21, 21);
+				background:url('b.jfif');
 				float:left;
+				background-size:cover;
 			}
+			#rarea{
+				width:100%;
+				height:100%;
+				background:rgba(0,0,0,0.9)
+				}
 				#sh1{
 					width:270px;
-					height:260px;
-					background:pink;
+					height:280px;
+					/*background:pink;*/
 					float:left;
 					margin-top:5px;
 					margin-left:60px;
-					
-					
 				}
+				.box2{
+					width:50px;
+					height:50px;
+					background:gray;
+					float:left;
+					margin:10px;
+					border-radius:50px;
+					background:#C70039;
+				}
+				.box2 i{
+					margin-left:10px;
+					margin-top:10px;
+					font-size:30px;
+					
+
+					}
+					
+				
 				#sh1 ul li{
 					list-style:none;	
 				}
 				#sh1 ul i{
-					color:rgb(244, 160, 36);	
+					color:rgb(244, 160, 36);
+					margin:5px;	
 				}
 				#sh1 h2{
 					color:rgb(244, 160, 36);
+					text-align:center;
 						
 				}
 				#sh1 ul li a {
@@ -931,17 +1051,19 @@ lines (1126 sloc)  26.3 KB
 					
 				#sh2{
 					width:270px;
-					height:260px;
-					background:green;
+					height:280px;
+					/*background:green;*/
 					float:left;
 					margin-top:5px;
 					
 				}
 					#sh2 ul li{
-						list-style:none;	
+						list-style:none;
+							
 					}
 					#sh2 h2{
 						color:rgb(244, 160, 36);
+						text-align:center;
 						}
 					#sh2 ul li a {
 						color:white;
@@ -952,15 +1074,16 @@ lines (1126 sloc)  26.3 KB
 						text-decoration:underline;	
 						}
 					#sh2 ul i{
-						color:rgb(244, 160, 36);	
+						color:rgb(244, 160, 36);
+						margin:3px;	
 					}
 					#sh2 ul p{
 						color:white;
 						}
 				#sh3{
 					width:270px;
-					height:260px;
-					background:pink;
+					height:280px;
+					/*background:pink;*/
 					float:left;
 					margin-top:5px;
 					
@@ -969,10 +1092,12 @@ lines (1126 sloc)  26.3 KB
 						list-style:none;	
 					}
 					#sh3 ul i{
-						color:rgb(244, 160, 36);	
+						color:rgb(244, 160, 36);
+						margin:5px;	
 					}
 					#sh3 h2{
 						color:rgb(244, 160, 36);
+						text-align:center;
 						}
 					#sh3 ul li a {
 						color:white;
@@ -984,15 +1109,60 @@ lines (1126 sloc)  26.3 KB
 						}
 					
 				#sh4{
-					width:290px;
-					height:260px;
-					background:red;
+					width:320px;
+					height:280px;
+					/*background:red;*/
 					float:left;
 					margin-top:5px;
 					
 				}
 					#sh4 ul li{
 						list-style:none;	
+					}
+					#sh4 h3{
+						text-align:center;
+						color:white;
+					}
+					#sh4 h2{
+						text-align:center;
+						color:rgb(244, 160, 36);
+					}
+					#sh4 i{
+						margin-right:10px;
+						color:rgb(244, 160, 36);
+					}	
+
+				#bootarea{
+					width:1200px;
+					height:70px;
+					background:black;
+					float:left;
+					margin-top:10px;
+					
+				}
+					#boot1{
+						width:600px;
+						height:45px;
+						background:black;
+						float:left;
+						margin-top:10px;
+					
+					}
+					#boot1 p{
+						text-align:center;
+						color:white;	
+					}
+					#boot2{
+						width:600px;
+						height:45px;
+						background:black;
+						float:left;
+						margin-top:10px;
+					
+					}
+					#boot2 p{
+						text-align:center;
+						color:white;	
 					}
 			
 		</style>
@@ -1002,10 +1172,10 @@ lines (1126 sloc)  26.3 KB
 			<div id="toparea">
 				<div class="contentarea">
 					<div id="top1">
-						<p><i class="fa fa-calendar"> </i>Wed Dec 01 2021 , 18:27</p>
+						<b><i class="fa fa-calendar"> </i>Thu Dec 02 2021 , 18:0</b>
 					</div>
 					<div id="top2">
-						<p>Skip to main content<i class="fa fa-"> </i></p>
+						<p><b>Skip to main content<i class="fa fa-buysellads"> </i><b><i class="fa fa-buysellads"> </i></p>
 					</div>
 					
 					
@@ -1083,12 +1253,12 @@ Navodaya Vidyalaya Samiti</h2>
 			<div id="boxarea">
 				<div class="contentarea">
 					<div id="b1">
-						<h2>Important News<i class="fa fa-bell"> </i></h2> 
+						<h3>Important News<i class="fa fa-bell"> </i></h3> 
 
 					</div>
 					<div id="b2">
-						<h3><marquee direction="left" scrollamount="5" width="800px" height="30px" onmouseover="this.stop()" onmouseout="this.start()">
-Declaration of CPF rate 7.10 for the quarter 1.10.2021 to 31.12.2021 Notice regarding Biometric Verification under Direct Recruitment Drive- July 2019  Bhasha Sangam - Celebrating the Linguistic Diversity of India  Notification for Class VI JNVST-2022</marquee></h3>
+						<h4><marquee direction="left" scrollamount="5" width="800px" height="30px" onmouseover="this.stop()" onmouseout="this.start()">
+Declaration of CPF rate 7.10 for the quarter 1.10.2021 to 31.12.2021 Notice regarding Biometric Verification under Direct Recruitment Drive- July 2019  Bhasha Sangam - Celebrating the Linguistic Diversity of India  Notification for Class VI JNVST-2022</marquee></h4>
 				
 					</div>
 					<div id="b3">
@@ -1130,7 +1300,13 @@ Declaration of CPF rate 7.10 for the quarter 1.10.2021 to 31.12.2021 Notice rega
 				<div class="farea">
 				<div class="contentarea">
 					<div id="foot">
-						
+						<div id="foot1">
+							<h1>Chairman, NVS</h1>
+
+						</div>
+						<div id="foot2">
+							<h1>Minister of State</h1>
+						</div>
 
 					</div>
 					<div id="f1area">
@@ -1301,7 +1477,9 @@ Alumni Members of NVS</h4>
 								<h1 align="center">What's New</h1>	
 							</div>
 							<div id="s35">
+							
 								<div id="s36">
+									
 								</div>	
 							</div>	
 						</div>
@@ -1351,8 +1529,11 @@ Alumni Members of NVS</h4>
 				</div>
 			</div>
 			<div id="shooterarea">
+				<div id="rarea">
+				
 				<div id="contentarea">
 					<div id="sh1">
+						
 						<h2>Personal Information System</h2>
 						
 						<ul>	
@@ -1362,6 +1543,15 @@ Alumni Members of NVS</h4>
 							
 						</ul>
 						<h2>Social</h2>
+						<div class="box2">
+							<i class="fa fa-facebook-official"> </i>
+						</div>
+						<div class="box2">
+							<i class="fa fa-twitter"> </i>
+						</div>
+						<div class="box2">
+							<i class="fa fa-youtube-play"> </i>
+						</div>
 					</div>
 					<div id="sh2">
 						<h2> Important Links</h2>
@@ -1391,22 +1581,26 @@ Alumni Members of NVS</h4>
 					</div>
 					<div id="sh4">
 						<h2>Contact Info</h2>
-						<ul>
-							
-							<li>Phone Number</li>
-							<li>0120 - 2405968, 69, 70, 71, 72, 73</li>
-							<li>Fax</li>
-							<li>0120 - 2405922</li>
-							
-							Location
-							Navodaya Vidyalaya Samiti, B-15, Institutional Area, Sector 62, Noida, Uttar Pradesh 201307
+						
+							<h3>
+							<i class="fa fa-phone"> </i>Phone Number<br>
+							0120 - 2405968, 69, 70, 71, 72, 73<br>
+							Fax<br>
+							0120 - 2405922<br><br>
+							<i class="fa fa-map-marker"> </i>Location<br>
+							Navodaya Vidyalaya Samiti, B-15, Institutional Area, Sector 62, Noida, Uttar Pradesh 201307</h3>
+					</div>
+					<div id="bootarea">
+							<div id="boot1">
+								 <p>2020. All rights reserved | Designed and Developed by CDAC</p>
+							</div>
+							<div id="boot2">
+								<p>All Content Managed by:Navodaya vidyalaya Samiti</p> 
+		
 
-				
-						</ul>	
 
-							
-
-
+							</div>
+						</div>	
 
 					</div>
 				</div>
